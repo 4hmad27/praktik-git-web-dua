@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 80% 1fr;
+}
+.header{
+    padding: 20px 0px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+.main{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.footer{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.footer p{
+    color: white;
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <a href="">Register</a>
+        <a href="">Login</a>
+    </div>
+    <div class="main">
+        <div class="heading"><h1>Hubungi Kami</h1></div>
+        <div class="about">
+            <label for="">Nama :</label>    
+            <input type="text"> 
+            <label for="">Email :</label>   
+            <input type="email" name="" id="">  
+            <label for="">Pesan :</label>   
+            <textarea name="" id=""></textarea> 
+            <input type="button" value="Kirim">    
+        </div>
+    </div>
+    <div class="footer">
+       <p>&copy; 2025 - Nexus</p>
+    </div>
+</body>
+</html>
